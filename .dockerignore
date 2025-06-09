@@ -1,0 +1,12 @@
+# Ignore everything that should not end up in the Docker build context
+.git
+.gitignore
+__pycache__
+.venv
+.idea
+.pytest_cache
+logs
+.env
+.env.*
+tests
+changelog

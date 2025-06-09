@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  app:
+    image: python:3.11-slim
+    container_name: vibecoding_app
+    env_file:
+      - .env
+    volumes:
+      - ./:/workspace:rw
+    working_dir: /workspace
+    command: sh -c "pip install -e .[dev] && tail -f /dev/null"
+    # Uncomment the following lines to expose ports/services as the project grows
+    # ports:
+    #   - "8000:8000"  # example FastAPI app
+
+networks:
+  default:
+    name: vibecoding_network

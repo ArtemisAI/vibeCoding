@@ -1,0 +1,20 @@
+# General
+__pycache__/
+.venv/
+.idea/
+.pytest_cache/
+*.pyc
+
+# Environment
+.env
+
+# Logs
+logs/
+
+# Docker
+*.log
+*.pid
+docker-data/
+
+# Others
+.DS_Store
