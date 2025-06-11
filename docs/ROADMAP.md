@@ -19,9 +19,9 @@ Goal: Create an installable Python package that offers helper utilities common t
 
 Tasks (non-exhaustive):
 
-1. Implement a structured logger wrapper.
-2. Provide a typed config loader that reads from env vars.
-3. Expose a simple HTTP server (FastAPI) that replies with build info.
+* [x] Implement a structured logger wrapper.
+* [ ] Provide a typed config loader that reads from env vars.
+* [ ] Expose a simple HTTP server (FastAPI) that replies with build info.
 
 ## Milestone 3 – AI Agent integration
 

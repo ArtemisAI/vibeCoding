@@ -1,6 +1,5 @@
-"""VibeCoding core package.
+"""VibeCoding core package utilities."""
 
-Currently empty; milestones will add sub-modules (logging, config, etc.).
-"""
+from .logging import get_logger
 
-__all__: list[str] = []
+__all__: list[str] = ["get_logger"]
