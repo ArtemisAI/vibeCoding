@@ -40,6 +40,10 @@ If you are an **AI agent** (👋), read `INSTRUCTIONS.md` first – it describes
 
 The project is in **bootstrap** stage.  The immediate goals are listed in `TODO.md` and the higher-level plan sits in `docs/ROADMAP.md`.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ---
 
 Made with care by the VibeCoding community.
