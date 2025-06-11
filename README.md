@@ -13,6 +13,7 @@ Instead of shipping a monolithic boiler-plate, VibeCoding starts with only the s
 * **Instructions** for AI agents so every autonomous contributor shares the same ground rules.
 * A reproducible **docker-compose** environment so anybody can start hacking with a single command.
 * Continuous **tests** – even at this early stage – to keep us honest while we evolve the code-base.
+* Source code is organized by language under `src/<language>/`.
 
 Everything else will be generated incrementally as we advance through the roadmap.
 

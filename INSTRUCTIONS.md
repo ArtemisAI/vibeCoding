@@ -28,7 +28,9 @@ This file is **pulled automatically** by autonomous agents (for example, the Ope
 ├── docs/                 # project-level documentation
 │   ├── ROADMAP.md        # strategic plan, updated regularly
 │   └── ...
-├── src/                  # Python source code (packages live here)
+├── src/
+│   ├── python/           # Python source code (packages live here)
+│   └── javascript/       # JavaScript modules (placeholder)
 ├── tests/                # pytest test-suite
 ├── changelog/            # one file per PR describing the change in first-person
 ├── .env.example          # example env vars (never commit real credentials!)
