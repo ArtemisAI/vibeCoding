@@ -11,6 +11,7 @@ This file is **pulled automatically** by autonomous agents (for example, the Ope
    * Mark the TODO item as done.
    * If the change impacts the big picture, reflect it in `docs/ROADMAP.md`.
    * Add a short entry in `changelog/` describing *what* and *why* you changed.
+   * Record any manual steps or environment requirements in `HUMAN.md`.
 5. Request review or merge.
 
 ## 2. Coding conventions

@@ -11,6 +11,7 @@ Instead of shipping a monolithic boiler-plate, VibeCoding starts with only the s
 * A clear, up-to-date **ROADMAP** that explains *where* we are heading.
 * A living **TODO** list that breaks the roadmap into small, bite-sized tasks.
 * **Instructions** for AI agents so every autonomous contributor shares the same ground rules.
+* **HUMAN.md** records manual steps or environment requirements that require a human touch.
 * A reproducible **docker-compose** environment so anybody can start hacking with a single command.
 * Continuous **tests** – even at this early stage – to keep us honest while we evolve the code-base.
 
@@ -34,7 +35,7 @@ docker compose exec app pytest -q
 
 Pull-requests are welcome!  Please read `docs/CONTRIBUTING.md` for guidelines.
 
-If you are an **AI agent** (👋), read `INSTRUCTIONS.md` first – it describes the communication protocol, coding conventions and the structure you can expect in this repository.
+If you are an **AI agent** (👋), read `INSTRUCTIONS.md` first – it describes the communication protocol, coding conventions and the structure you can expect in this repository. Consult `HUMAN.md` for any tasks that require human intervention.
 
 ## Project status
 

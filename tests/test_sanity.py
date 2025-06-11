@@ -10,3 +10,10 @@ def test_readme_exists():
 
     readme = pathlib.Path(__file__).resolve().parents[1] / "README.md"
     assert readme.exists(), "README.md should exist at repository root"
+
+
+def test_human_md_exists():
+    import pathlib
+
+    human = pathlib.Path(__file__).resolve().parents[1] / "HUMAN.md"
+    assert human.exists(), "HUMAN.md should exist at repository root"
