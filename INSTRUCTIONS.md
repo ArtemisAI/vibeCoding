@@ -21,6 +21,7 @@ This file is **pulled automatically** by autonomous agents (for example, the Ope
 * Every non-trivial function must have meaningful **doc-strings**.
 * Use **pytest** for tests; put them under `tests/` mirroring the source tree.
 * Never commit secrets.  Reference them via environment variables and document every variable in `.env.example`.
+* `pre-commit` runs `detect-secrets` to prevent leaks.  If you add new allowed values, update `.secrets.baseline` with `detect-secrets scan > .secrets.baseline` and commit it.
 
 ## 3. Repository layout (high-level)
 
