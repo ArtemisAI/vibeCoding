@@ -12,6 +12,7 @@ Checklist:
 * [x] Development tooling (`docker-compose`, `.env.example`).
 * [x] Test scaffolding (`pytest`, a sample test to keep CI green).
 * [x] Continuous Integration (GitHub Actions or similar).
+* [ ] Keep `docs/ARCHITECTURE.md` updated whenever the repository structure changes.
 
 ## Milestone 2 – Core package `vibecoding`
 
@@ -39,4 +40,4 @@ Once the core is stable, we will start separate micro-projects (e.g. a CLI tool,
 
 ---
 
-Last updated: 2025-06-11
+Last updated: 2025-06-12
